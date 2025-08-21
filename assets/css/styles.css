@@ -13,8 +13,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ring);outline-offse
 .brand .name{font-size:1.1rem}
 .nav-links{display:flex;gap:6px;flex-wrap:wrap}
 .nav-links a{padding:8px 12px;border-radius:10px;color:#d9d4cf;border:1px solid transparent}
-.nav-links a[aria-current="page"]{background:rgba(232,196,143,.12);border-color:rgba(232,196,143,.25);color:#fff}
-.btn,.btn-ghost{font-family:ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;border:1px solid var(--border);cursor:pointer;transition:transform .05s ease,background .2s ease,border .2s ease;font-family:"EB Garamond", Georgia, serif;font-weight:600}
+.nav-links a[aria-current="page"]{background:rgba(228,0,127);border-color:rgba(232,196,143,.25);color:#fff}
+.btn,.btn-ghost{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;border:1px solid var(--border);cursor:pointer;transition:transform .05s ease,background .2s ease,border .2s ease;font-family:"EB Garamond", ui-sans-serif, serif;font-weight:600}
 .btn{background:var(--accent);color:#E4007F;border-color:transparent}.btn:hover{transform:translateY(-1px)}
 .btn-ghost{background:rgba(255,255,255,.02);color:#e6e1dc}.btn-ghost:hover{border-color:#2b3240;transform:translateY(-1px)}
 
