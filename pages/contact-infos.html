@@ -1,0 +1,49 @@
+<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact & Infos</title>
+<meta name="description" content="Coordonnées, formulaire mailto et informations."/>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/styles.css"/></head><body>
+<header class="site-header"><div class="container nav">
+  <a class="brand" href="../index.html" aria-label="Accueil"><span class="logo ui" aria-hidden="true">P</span><span class="name">Portfolio</span></a>
+  <nav class="nav-links ui" aria-label="Navigation principale">
+    <a href="../index.html">Accueil</a>
+    <a href="contact-infos.html" aria-current="page">Contact & Infos</a>
+  </nav>
+  <div class="nav-cta">
+    <a class="btn-ghost" href="../index.html#projets">Voir les projets</a>
+    <a class="btn" href="mailto:nom@example.com">Écrire</a>
+  </div>
+</div></header>
+
+<main class="section"><div class="container">
+  <div class="grid">
+    <section class="card col-4" style="grid-column: span 7;">
+      <h1 style="margin:0 0 8px;">Contact</h1>
+      <p class="subtle">Tu peux m’écrire par e‑mail, ou utiliser ce mini‑formulaire (ouvre ton client mail).</p>
+      <form class="ui" method="get" action="mailto:nom@example.com" onsubmit="alert('Merci ! Ton client e-mail va s’ouvrir.');">
+        <label for="nom">Nom</label><br/>
+        <input id="nom" name="nom" placeholder="Votre nom" required style="width:100%;margin:6px 0 10px;padding:12px;border-radius:10px;border:1px solid var(--border);background:#0f1320;color:var(--text);"/>
+        <label for="email">Email</label><br/>
+        <input id="email" type="email" name="email" placeholder="vous@exemple.com" required style="width:100%;margin:6px 0 10px;padding:12px;border-radius:10px;border:1px solid var(--border);background:#0f1320;color:var(--text);"/>
+        <label for="message">Message</label><br/>
+        <textarea id="message" name="message" rows="6" placeholder="Bonjour..." required style="width:100%;margin:6px 0 12px;padding:12px;border-radius:10px;border:1px solid var(--border);background:#0f1320;color:var(--text);"></textarea>
+        <button class="btn" type="submit">Envoyer</button>
+        <a class="btn-ghost" href="mailto:nom@example.com">Ou m’écrire</a>
+      </form>
+    </section>
+    <aside class="card col-4" style="grid-column: span 5;">
+      <h2 style="margin:0 0 8px;">Infos</h2>
+      <ul style="margin:0 0 8px 18px; color:#d7d2cc;">
+        <li>Basé à : Votre ville</li>
+        <li>Disponibilité : Ouvert aux missions</li>
+        <li>Spécialités : UI/UX, sites statiques, performance</li>
+      </ul>
+      <div class="ui" style="font-size:.9rem; color:#b3aca4;">Pour un domaine personnalisé, ajoute un fichier <code>CNAME</code> à la racine.</div>
+    </aside>
+  </div>
+</div></main>
+
+<footer class="footer"><div class="container">© <span data-year></span> Portfolio.</div></footer>
+<script src="../assets/js/main.js" defer></script>
+</body></html>
