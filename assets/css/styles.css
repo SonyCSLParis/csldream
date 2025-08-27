@@ -36,3 +36,30 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ring);outline-offse
 
 .footer{padding:34px 0 48px;border-top:1px solid var(--border);color:#a8a29e}.footer a{text-decoration:underline;text-decoration-color:#2b3240}
 .center{display:grid;place-items:center;min-height:60vh}
+
+.nav-soon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: #888;
+  font-style: italic;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.badge-soon {
+  position: absolute;
+  top: -6px;
+  right: -14px;
+  background: #e8c48f;
+  color: #0e1116;
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 6px;
+  transform: rotate(-10deg);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
